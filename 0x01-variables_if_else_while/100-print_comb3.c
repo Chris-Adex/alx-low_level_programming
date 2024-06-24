@@ -22,7 +22,7 @@ for (a = 0; a <= 8; a++)
 	putchar(' ');
 	}
 }
-putchar('\n');
+/**putchar('\n');*/
 return (0);
 }
 
