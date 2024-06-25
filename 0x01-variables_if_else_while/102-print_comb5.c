@@ -20,7 +20,7 @@ for (a = 0; a <= 98; a++)
 		putchar((b / 10) + '0');
 		putchar((b % 10) + '0');
 
-		if (a <= 98)
+		if (a <= 97)
 		{
 		putchar(',');
 		putchar(' ');
