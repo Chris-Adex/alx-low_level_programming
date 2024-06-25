@@ -6,13 +6,13 @@
 */
 
 
-int main(void)
+/** int main(void)
 {
 print_alphabet();
 return (0);
 }
 
-/**
+
 * print_alphabet - function to print lowercase a -z
 * @void - no parameters accepted
 * Return: always (0)
