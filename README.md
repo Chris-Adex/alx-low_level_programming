@@ -1,1 +1,1 @@
-start of my c programming journey
+functions and nested loops tasks
