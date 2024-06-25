@@ -1,1 +1,1 @@
-functions and nested loops tasks
+C programming project tasks
