@@ -1,19 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <unistd.h>
-
 /**
-* _putchar - writes character c to stdout
-* @a: paramter for function _putchar
-*
-* Return: returns char
+* header file containing all prototypes for 0x02-functions_nested_loops tasks
 */
-
-int _putchar(char a)
-{
-return (write(1, &a, 1));
-}
 
 
 int _putchar(char a);
