@@ -12,39 +12,32 @@ int x;
 int y;
 if (n >= 0 && n <= 14)
 {
-
 	for (x = 0; x <= n; x++)
 	{
-	for (y = 0; y <= n; y++)
-	{
-	if (y == 0)
-	{
-	_putchar((x * y) + '0');
+		_putchar('0');
+
+		for (y = 1; y <= n; y++)
+		{
+			_putchar(',');
+			_putchar(' ');
+
+			if ((x * y) <= 99)
+				_putchar(' ');
+			if ((x * y) <= 9)
+				_putchar(' ');
+
+			if ((x * y) >= 100)
+			{
+				_putchar((((x * y)) / 100) + '0');
+				_putchar((((x * y) / 10)) % 10 + '0');
+			}
+			else if ((x * y) <= 99 && (x * y) >= 10)
+			{
+				_putchar(((x * y) / 10) + '0');
+			}
+				_putchar(((x * y) % 10) + '0');
+			}
+			_putchar('\n');
+		}
 	}
-	else if ((x * y) >= 10)
-	{
-	_putchar(' ');
-	_putchar(((x * y) / 10) + '0');
-	_putchar(((x * y) % 10) + '0');
-	}
-	else if ((x * y) >=100);
-	{
-	_putchar(' ');
-	_putchar(((x * y) / 100) + '0');
-	_putchar(((x * y) / 10) + '0');
-	_putchar(((x * y) % 10) + '0');
-	}
-	else
-	{
-	_putchar(' ');
-	_putchar(' ');
-	_putchar((x * y) + '0');
-	}
-	if (y != n)
-	{
-	_putchar(',');
-	}
-	}
-_putchar('\n');
-}
 }
