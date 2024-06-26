@@ -9,6 +9,14 @@
 
 int add(int x, int y)
 {
+if (((x + y) > 9) || ((x + y) < -9))
+{
+_putchar(((x + y) / 10) + '0');
+_putchar(((x + y) % 10) + '0');
+}
+else
+{
 _putchar((x + y) + '0');
+}
 return ((x + y));
 }
