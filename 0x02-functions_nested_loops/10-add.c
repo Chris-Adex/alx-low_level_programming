@@ -18,5 +18,4 @@ else
 {
 _putchar((x + y) + '0');
 }
-return ((x + y));
 }
