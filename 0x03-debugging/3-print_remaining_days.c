@@ -22,10 +22,10 @@ if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
 	printf("Day of the year: %d\n", day);
 	printf("Remaining days: %d\n", 366 - day);
 }
-	else
-	{
-	printf("Day of the year: %d\n", day);
-	printf("Remaining days: %d\n", 365 - day);
-	}
+else
+{
+printf("Day of the year: %d\n", day);
+printf("Remaining days: %d\n", 365 - day);
+}
 }
 
