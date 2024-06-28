@@ -16,13 +16,11 @@ while (n <= 9)
 {
 for (x = 0; x <= 14; x++)
 {
-if (x > 9)
-{
-_putchar(x / 10);
-_putchar(x % 10);
+	if (x > 9)
+	_putchar((x / 10) + '0');
+	_putchar((x % 10)+ '0');
 }
 _putchar('\n');
 n++;
-}
 }
 }
