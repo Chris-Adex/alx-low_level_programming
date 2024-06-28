@@ -22,7 +22,7 @@ _putchar(x / 10);
 _putchar(x % 10);
 }
 _putchar('\n');
-n++;
 }
+n++;
 }
 }
