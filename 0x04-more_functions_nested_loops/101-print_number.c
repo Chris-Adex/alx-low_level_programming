@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_number - prints integer with _putchar
  * @n: takes number
