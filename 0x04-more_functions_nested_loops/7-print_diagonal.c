@@ -18,8 +18,9 @@ if (n > 0)
 		_putchar(' ');
 	}
 		_putchar('\\');
-	}
+	
 	_putchar('\n');
+	}
 }
 else
 _putchar('\n');
