@@ -13,8 +13,8 @@ long x, num;
 num = 612852475143;
 for (x = 2; x < num; x++)
 {
-while (num % i == 0)
-num = num / i;
+while (num % x == 0)
+num = num / x;
 }
 
 printf("%lu\n", num);
