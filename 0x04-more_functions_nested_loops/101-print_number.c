@@ -20,7 +20,7 @@ else
 {
 x = n;
 }
-if (m / 10 != 0)
+if (x / 10 != 0)
 print_number(x / 10);
 _putchar((x % 10) + '0');
 }
