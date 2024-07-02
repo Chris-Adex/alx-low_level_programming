@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* main - entry point
-* @n: parameter
+* reset_to_98 - function that updates the value of
+* a pointer to 98
+* @n: pointer
 *
 */
 
