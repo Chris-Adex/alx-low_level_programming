@@ -29,7 +29,7 @@ x = 0;
 
 		x++;
 
-		} while (haystack[index] == needle[index]);
+		} while (haystack[x] == needle[x]);
 	}
 
 	haystack++;
