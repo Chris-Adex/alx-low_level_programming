@@ -14,13 +14,13 @@ int y;
 while (x <= size && size > 0)
 {
 	y = 0;
-	while (y < size - i)
+	while (y < size - x)
 	{
 		_putchar(' ');
 		y++;
 	}
 	y = 0;
-	while (y < i)
+	while (y < x)
 	{
 		_putchar('#');
 		y++;
