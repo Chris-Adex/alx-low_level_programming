@@ -35,7 +35,7 @@ while (x < size)
 	}
 	for (z = 0; z < y; z++)
 	{
-		int c = *(y + x + z);
+		int c = *(b + x + z);
 
 		if (c <= 31 || c >= 131)
 		{
