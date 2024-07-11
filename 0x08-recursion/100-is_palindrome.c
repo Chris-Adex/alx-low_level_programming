@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _print_rev_recursion(char *s);
+int rev_recursion(char *s);
 
 /**
  * is_palindrome - checks if a string is a palindrome
@@ -14,22 +14,23 @@ int is_palindrome(char *s)
 if (*s == 0)
 	return (1);
 
-if (_print_rev_recursion(s) == *s)
+if (rev_recursion(s) == *s)
 	return (1);
 return (0);
 }
 
 
 /**
- * _print_rev_recursion- prints reversed string
+ *rev_recursion- prints reversed string
  *@s: string to be reversed
+ * Return: reversed string
  */
 
-int _print_rev_recursion(char *s)
+int rev_recursion(char *s)
 {
 if (*s)
 {
-_print_rev_recursion(s + 1);
+rev_recursion(s + 1);
 return (_putchar(*s));
 }
 }
