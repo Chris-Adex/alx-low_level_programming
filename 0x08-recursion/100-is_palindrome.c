@@ -31,6 +31,6 @@ int rev_recursion(char *s)
 if (*s)
 {
 rev_recursion(s + 1);
-return (_putchar(*s));
 }
+return (_putchar(*s));
 }
