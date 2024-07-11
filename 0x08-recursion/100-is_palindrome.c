@@ -14,8 +14,7 @@ int is_palindrome(char *s)
 if (*s == 0)
 	return (1);
 
-if (_print_rev_recursion(s) == s)
-
+if (_print_rev_recursion(*s) == *s)
 	return (1);
 return (0);
 }
