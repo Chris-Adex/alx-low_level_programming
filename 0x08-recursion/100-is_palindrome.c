@@ -34,5 +34,5 @@ if (*s)
 {
 rev_recursion(s + 1);
 }
-_putchar(*s);
+return (*s);
 }
