@@ -28,8 +28,10 @@ return (prime_num(n, 2));
 int prime_num(int num, int f)
 {
 if (f < num)
+{
 	if (num % f == 0)
 		return (0);
 	return (prime_num(num, f + 1));
+}
 return (1);
 }
