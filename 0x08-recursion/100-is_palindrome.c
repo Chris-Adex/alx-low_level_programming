@@ -2,7 +2,7 @@
 
 
 int _len(char *s);
-int is_p(int index, int l, chars *s);
+int is_p(int index, int l, char *s);
 
 /**
  * _len - checks the length of a string
