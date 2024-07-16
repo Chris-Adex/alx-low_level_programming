@@ -43,8 +43,8 @@ if (s == NULL)
 	return (NULL);
 }
 
-strcpy(result, s1);
-strcat(result, s2);
+strcpy(s, s1);
+strcat(s, s2);
 
 return (s);
 }
