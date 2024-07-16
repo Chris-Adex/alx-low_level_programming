@@ -21,14 +21,14 @@ if (str == NULL)
 }
 
 len = strlen(str) + 1;
-*dupstr = malloc(sizeof(char) * len);
+dupstr = malloc(sizeof(char) * len);
 
 if (dupstr == NULL)
 {
 	return (NULL);
 }
 
-strcpy(dustr, str);
+strcpy(dupstr, str);
 return (dupstr);
 }
 
