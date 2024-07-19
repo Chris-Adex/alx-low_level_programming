@@ -28,7 +28,7 @@ if (m == NULL)
 }
 
 for (i = 0; i < (size * nmemb); i++)
-	*((char *)m)[i] = '\0';
+	*((char *)(m) +i) = '\0';
 
 return (m);
 }
