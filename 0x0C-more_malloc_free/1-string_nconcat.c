@@ -25,6 +25,7 @@ if (s2 == NULL)
 {
 	s2 = "";
 }
+
 len1 = strlen(s1);
 len2 = strlen(s2);
 
@@ -32,7 +33,7 @@ if (n < 0)
 {
 	return (NULL);
 }
-if (n >= len2)
+if ((n >= len2) || (n < len2))
 {
 	n = len2;
 }
