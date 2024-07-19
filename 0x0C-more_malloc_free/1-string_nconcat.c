@@ -51,7 +51,7 @@ if (s == NULL)
 }
 
 strcpy(s, s1);
-strncat(s, s2,num);
+strncat(s, s2, num);
 
 return (s);
 }
