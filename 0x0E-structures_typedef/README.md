@@ -1,0 +1,1 @@
+strucut and typedef project
