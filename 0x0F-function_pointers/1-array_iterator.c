@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 
 /**
   * array_iterator - funct that executes a func given as parameter
