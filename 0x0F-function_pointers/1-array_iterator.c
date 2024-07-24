@@ -9,7 +9,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 
-	if (array && action)
+	if (array && size > 0 && action)
 	{
 		while (size-- > 0)
 		{
