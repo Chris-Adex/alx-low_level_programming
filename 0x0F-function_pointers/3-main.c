@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	sign = argv[2];
 	num2 = atoi(argv[3]);
 
-	if (get_op_func(op) == NULL || sign[1] != 0)
+	if (get_op_func(sign) == NULL || sign[1] != 0)
 	{
 	printf("Error\n");
 	exit(99);
@@ -36,9 +36,11 @@ int main(int argc, char *argv[])
 	{
 	printf("Error\n");
 	exit(100);
+	}
 
-	result = get_op_function(sign)(num1, num2);
+	result = get_op_func(sign)(num1, num2);
 	printf("%d\n", result);
 
 	return (0);
+	
 }
