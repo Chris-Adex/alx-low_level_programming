@@ -13,8 +13,6 @@ int main(int argc, char *argv[])
 {
 	int bytes, i;
 
-	i = 0;
-
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -29,10 +27,9 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	while (i < bytes)
+	for (i = 0; i < bytes, i++)
 	{
-		printf("%02hhx", *((char *)main + i));
-		i++;
+		printf("%.2x", *((char *)main + i));
 
 		if (i  < (bytes - 1))
 			printf(" ");
