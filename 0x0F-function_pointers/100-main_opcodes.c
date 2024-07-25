@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (i = 0; i < bytes, i++)
+	for (i = 0; i < bytes; i++)
 	{
 		printf("%.2x", *((char *)main + i));
 
