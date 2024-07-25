@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int bytes, i;
+	i = 0;
 
 	if (argc != 2)
 	{
@@ -27,9 +28,10 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (i = 0; i < bytes; i++)
+	while (i < bytes)
 	{
 		printf("%02hhx", *((char *)main + i));
+		i++;
 
 		if (i  < (bytes - 1))
 			printf(" ");
