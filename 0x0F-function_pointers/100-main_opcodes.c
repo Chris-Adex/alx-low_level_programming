@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
-  *main - print opcodes of main function
-  *@argc: number of arguments
-  *@argv: array of pointers
+  * main - print opcodes of main function
+  * @argc: number of arguments
+  * @argv: array of pointers
   *
-  *Return: 0 (sucess)
+  * Return: 0 (sucess)
   */
 
 int main(int argc, char *argv[])
