@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * pop_listint - function that deletes head node
@@ -7,12 +8,12 @@
  * Return: the head node's data or 0 if list is empty
  */
 
-int pop_listint(listint **head)
+int pop_listint(listint_t **head)
 {
-	listint *tmp;
+	listint_t *tmp;
 	int i;
 
-	if ((head || *head) == NULL)
+	if (head == NULL || *head == NULL)
 		return (0);
 
 	tmp = *head;
